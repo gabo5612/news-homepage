@@ -1,0 +1,12 @@
+.MiniNewsContainer{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+@media (min-width:900px) {
+.MiniNewsContainer{
+    flex-direction: row;
+    justify-content: space-between;
+}
+}

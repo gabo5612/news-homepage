@@ -1,0 +1,49 @@
+:root{
+    --Softorange: hsl(35, 77%, 62%);
+    --Softred: hsl(5, 85%, 63%);
+    --Off-white: hsl(36, 100%, 99%);
+    --Grayishblue: hsl(233, 8%, 79%);
+    --Darkgrayishblue: hsl(236, 13%, 42%);
+    --Verydarkblue: hsl(240, 100%, 5%);
+}
+.mobileContainer{
+  
+    position:relative;
+    right: 0;
+    top: 100%;
+}
+
+.openMobileUl{
+    position: fixed;
+    right: 0;
+    height: 100vh;
+    width: 60vw;
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+
+   
+}
+.openMobileUl li{
+margin-top: 50px;
+
+}
+.openMobileUl li a{
+    text-decoration: none;
+    color: var(--Verydarkblue);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+  
+}
+.closeMobileUl{
+    display: none;
+}
+.desktopUl{
+    display: flex;
+    gap:30px;
+    list-style: none;
+}
+.desktopUl li a{
+    color: var(--Darkgrayishblue);
+    text-decoration: none;
+}

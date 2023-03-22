@@ -1,0 +1,14 @@
+.HomePage{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width:900px) {
+    .HomePage{
+        
+        align-items:flex-start;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+}
